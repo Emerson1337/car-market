@@ -46,7 +46,7 @@ function addpedido(idNome, idPreco, idQtd) {
     console.log(listaPedidos);
 
     var link = document.querySelector("a#wpp");
-    link.setAttribute("href", `https://api.whatsapp.com/send?phone=5585986160705&text=${listaPedidos} 
+    link.setAttribute("href", `https://api.whatsapp.com/send?phone=number&text=${listaPedidos} 
 
     PREÇO TOTAL:R$${precoTotal}`);
 
